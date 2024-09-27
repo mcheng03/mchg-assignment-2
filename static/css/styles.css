@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls label {
+    margin: 0 10px;
+}
+
+.controls select,
+.controls input {
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.controls button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.chart-container {
+    height: 600px;  /* Fixed height */
+    width: 800px;   /* Fixed width */
+    margin: 0 auto;
+}
+
+canvas {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
